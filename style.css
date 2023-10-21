@@ -1,0 +1,128 @@
+body{
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(1, 0, 13);
+  }
+
+h1{
+    font-size: 3rem;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.online{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text{
+    color: white;
+}
+
+.myphoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: rgb(198, 227, 255) solid 7px;
+    border-radius: 50%;
+}
+
+.objective{
+    text-align: center;
+}
+
+.intro{
+    font-size: 1.25rem;
+    font-weight: 100;
+    letter-spacing: 0rem;
+    font-family: 'Source Serif 4', serif;
+}
+
+.subhead{
+    font-size: 2rem;
+    font-family: 'Glory', sans-serif;
+    letter-spacing: .1rem;
+}
+
+h3{
+    font-family: 'Glory', sans-serif;
+    letter-spacing: .05rem;
+}
+
+ul li{
+    font-family: 'Source Serif 4', serif;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.main a.hobbies{
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 22px;
+    color: white;
+    background-color: #070b30;
+    border: 7px solid white;
+    padding: 70px;
+}
+
+.main a.contact{
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 22px;
+    color: white;
+    background-color: #070b30;
+    border: 7px solid white;
+    padding: 70px;
+    padding-left: 72.5px;
+    padding-right: 72.5px;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Style for phones up to 680px width*/
+@media (max-width: 680px){
+
+    .myphoto{
+        width: 250px;
+    }
+
+    .container{
+        display: block;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main a.hobbies{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: max-content;
+        padding: 40px;
+        border: 4px solid white;
+        margin-bottom: 20px;
+
+    }
+    
+    .main a.contact{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: max-content;
+        padding: 40px;
+        border: 4px solid white;
+        
+    }
+}
